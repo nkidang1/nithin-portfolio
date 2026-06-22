@@ -198,7 +198,7 @@ export default function Certifications() {
               Completed Cadence Essential SystemVerilog for UVM training
               covering verification component architecture, constrained-random
               verification, virtual interfaces, sequencers, drivers, monitors,
-              and reusable verification methodologies for ASIC and FPGA verification.
+              and developing verification components for a 4-port switch design.
             </p>
 
             <p className="text-gray-500">
