@@ -1,7 +1,6 @@
 export default function Projects() {
   return (
     <main className="min-h-screen bg-black text-white py-12">
-
       <div className="max-w-7xl mx-auto px-6">
 
         {/* BACK TO HOME */}
@@ -72,7 +71,8 @@ export default function Projects() {
               Designed a quantized FPGA-oriented hardware accelerator for
               Mamba selective scan computation using INT8 LUT-based Softplus
               and exponential units, pipelined selective-scan scheduling,
-              and parallel MAC architectures for efficient edge medical AI acceleration.
+              and parallel MAC architectures for efficient edge medical AI
+              acceleration.
             </p>
 
             <p className="text-gray-500 mb-6">
@@ -107,14 +107,15 @@ export default function Projects() {
 
             <h2 className="text-3xl font-semibold mb-4 leading-tight">
               STMicroelectronics Internship:
+              <br />
               Design and Verification of Different Modules of AI Subsystem
             </h2>
 
             <p className="text-gray-300 leading-7 mb-5">
-              Modeled Analog In-Memory Computing (AIMC) MAC subsystems in Simulink,
-              developed HDL-synthesizable noise models, generated Verilog RTL and
-              testbenches using HDL Coder, and verified functionality using
-              Cadence Xcelium simulation workflows.
+              Modeled Analog In-Memory Computing (AIMC) MAC subsystems in
+              Simulink, developed HDL-synthesizable noise models, generated
+              Verilog RTL and testbenches using HDL Coder, and verified
+              functionality using Cadence Xcelium simulation workflows.
             </p>
 
             <p className="text-gray-500 mb-6">
@@ -148,9 +149,9 @@ export default function Projects() {
 
             <p className="text-gray-300 leading-7 mb-5">
               Designed and verified a Verilog RTL AMBA AHB-to-APB bridge
-              supporting single, INCR4 burst, and WRAP4 burst transfers
-              with address pipelining, FSM-controlled APB sequencing,
-              and wait-state handling.
+              supporting single, INCR4 burst, and WRAP4 burst transfers with
+              address pipelining, FSM-controlled APB sequencing, and wait-state
+              handling.
             </p>
 
             <p className="text-gray-500 mb-6">
@@ -166,6 +167,57 @@ export default function Projects() {
                 ↗ View Project
               </a>
 
+              <a
+                href="/reports/ahb2apb-bridge-report.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition"
+              >
+                📄 Report
+              </a>
+
+            </div>
+
+          </div>
+
+
+          {/* PROJECT 5 */}
+          <div className="border border-gray-700 p-6 rounded-2xl hover:border-white transition">
+
+            <h2 className="text-3xl font-semibold mb-4 leading-tight">
+              Low-Power 2-bit 20 MS/s Flash ADC in 45-nm CMOS
+            </h2>
+
+            <p className="text-gray-300 leading-7 mb-5">
+              Designed a complete mixed-signal Flash ADC consisting of a
+              sample-and-hold circuit, rail-to-rail comparators, SR latches,
+              thermometer-code encoder, and output logic. Performed schematic
+              design, physical layout, DRC/LVS verification, parasitic extraction,
+              and post-layout simulation using Cadence Virtuoso.
+            </p>
+
+            <p className="text-gray-500 mb-6">
+              Cadence Virtuoso • Analog IC Design • Mixed-Signal VLSI • CMOS • Layout
+            </p>
+
+            <div className="flex gap-6">
+
+              <a
+                href="/projects/mixed-mode"
+                className="text-blue-400 hover:text-blue-300 transition"
+              >
+                ↗ View Project
+              </a>
+
+              <a
+                href="/reports/Mixed-mode-project.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition"
+              >
+                📄 Report
+              </a>
+
             </div>
 
           </div>
@@ -173,7 +225,6 @@ export default function Projects() {
         </div>
 
       </div>
-
     </main>
   );
 }
