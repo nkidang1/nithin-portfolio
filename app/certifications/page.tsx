@@ -227,9 +227,9 @@ export default function Certifications() {
             </h2>
 
             <p className="text-gray-300 leading-7 mb-4">
-              Developed a UVM verification environment to test a YAPP packet-router DUT, 
-              incorporating constrained-random stimulus generation, configurable UVCs, 
-              multichannel sequencers, TLM scoreboarding, test libraries and functional coverage.
+              Developed a UVM test to verify a YAPP packet-router DUT, 
+              incorporating configurable UVC agents with drivers, sequencers, and monitors; 
+              multichannel sequence generators, TLM scoreboarding, test, and sequence libraries.
             </p>
 
             <p className="text-gray-500">
