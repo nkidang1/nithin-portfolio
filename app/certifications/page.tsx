@@ -211,6 +211,37 @@ export default function Certifications() {
 
           </div>
 
+          {/* CERTIFICATION 7 */}
+          <div className="border border-gray-800 rounded-2xl p-6">
+
+            <img
+              src="/images/certifications/UVM-certificate.png"
+              alt="Cadence SystemVerilog Accelerated Verification with UVM v1.2.5rev2"
+              className="w-full h-[320px] object-contain rounded-xl bg-white p-4"
+            />
+
+            <h2 className="text-2xl font-semibold mt-6 mb-3">
+              Cadence Training:
+              <br />
+              SystemVerilog Accelerated Verification with UVM v1.2.5rev2
+            </h2>
+
+            <p className="text-gray-300 leading-7 mb-4">
+              Developed a UVM verification environment to test a YAPP packet-router DUT, 
+              incorporating constrained-random stimulus generation, configurable UVCs, 
+              multichannel sequencers, TLM scoreboarding, test libraries and functional coverage.
+            </p>
+
+            <p className="text-gray-500">
+              UVM • TLM Scoreboarding • Multichannel Sequencing • Checking & Coverage • SystemVerilog
+            </p>
+
+            <p className="text-gray-500 mt-4">
+              Completed July 2026
+            </p>
+
+          </div>
+
         </div>
       </div>
     </main>
